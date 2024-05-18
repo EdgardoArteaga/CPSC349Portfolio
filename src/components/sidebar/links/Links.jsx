@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Links = () => {
 
-const items = ["Homepage",  "About",   "Languages",   "Projects",  "Contact"];
+const items = ["Homepage",  "About",   "My Knowledge",   "Projects",  "Contact"];
 
 const variants = {
     open: {
@@ -32,7 +32,7 @@ const itemVariants = {
     return (
         <motion.div className="links" variants={variants}>
             {items.map((item) => ( 
-                <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
+                <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}} >
                     {item}
                  </motion.a>
             ))}

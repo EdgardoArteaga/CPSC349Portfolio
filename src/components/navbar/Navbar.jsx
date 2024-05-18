@@ -17,9 +17,9 @@ const Navbar = () => {
                 </motion.span>
 
                 <div className="social">
-                    <a href="#"><img src="/facebook.png" alt="Facebook Logo" /></a>
-                    <a href="#"><img src="/instagram.png" alt="Insta Logo" /></a>
-                    <a href="#"><img src="/youtube.png" alt="Youtube Logo" /></a>
+                    <a href="https://www.facebook.com/edgardo.arteaga.16"><img src="/facebook.png" alt="Facebook Logo" /></a>
+                    <a href="https://www.instagram.com/edgardo.arteaga.16"><img src="/instagram.png" alt="Insta Logo" /></a>
+                    <a href="https://www.youtube.com/@EdgardoArteaga1993"><img src="/youtube.png" alt="Youtube Logo" /></a>
                     <a href="#"><img src="/dribbble.png" alt="Dribble Logo" /></a>
                 </div>
             </div>
